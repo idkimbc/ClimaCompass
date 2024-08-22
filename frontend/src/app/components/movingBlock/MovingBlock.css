@@ -1,0 +1,79 @@
+.movingBlockContainer {
+    background-color: rgb(255, 201, 40);
+    display: flex;
+    overflow: hidden;
+}
+.movingBlockContainerInside {
+    animation-name: moving;
+    animation-duration: 1300s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    display: flex;
+}
+.movingElem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11vh;
+    gap: 3px;
+    white-space: nowrap;
+    font-family: "Margin DEMO";
+    font-weight: 100;
+}
+@keyframes moving {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+.builtOn {
+    color: white;
+    font-size: 9vh;
+    font-family: "Mario Kart DS";
+    margin-top: 5vh;
+    text-align: center;
+}
+.deployedOn {
+    color: white;
+    font-size: 9vh;
+    font-family: "Mario Kart DS";
+    text-align: center;
+    margin-top: 10vh;
+}
+.wrapper {
+    margin-top: 12vh;
+    padding-top: 10vh;
+    background-color: black;
+}
+.platforms {
+    color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.deploymentPlatforms {
+    font-family: "Margin DEMO";
+    font-size: 7vh;
+    background-color: rgb(255, 201, 40);
+    padding: 2vh 5vh;
+    border-radius: 20px;
+    z-index: 2;
+}
+.borderBack {
+    font-family: "Margin DEMO";
+    font-size: 7vh;
+    background-color: transparent;
+    padding: 2vh 5vh;
+    border-radius: 20px;
+    border: 3px solid rgb(255, 201, 40);
+    /* position: relative;
+    right: 550px;
+    top: 13px; */
+    z-index: 1;
+}
+.deploymentPlatforms:hover {
+    transform: translateY(-5%);
+}

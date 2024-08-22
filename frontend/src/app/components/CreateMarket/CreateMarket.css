@@ -1,0 +1,111 @@
+
+
+.createMarket {
+
+    padding-top: 10vh;
+    padding-bottom: 20vh;
+    background-color: #000;
+    color: #fff;
+}
+
+ 
+.createMarket__container {
+
+    max-width: 1600px;
+    padding: 0 2rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.createMarket form {
+
+    max-width: 600px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.createMarket h2 {
+
+    color: #fff;
+    font-family: "Mario Kart DS";
+    font-size: 3.8rem;
+    font-weight: bold;
+    max-width: 600px;
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.createMarket button {
+
+    background-color: transparent;
+    border: 1.9px solid #2BEB7C;
+    color: #2BEB7C;
+    font-family: "Minecraft";
+    font-weight: bold;
+    width: max-content;
+    letter-spacing: 2.5px;
+}
+
+.createMarket label {
+
+    color: #fff;
+    font-family: "Akkurat-Mono";
+    margin-bottom: 0.5rem;
+    display: inline-block;
+}
+
+.createMarket input {
+    font-family: "Akkurat-Mono";
+    color: #000;
+}
+
+
+@media (max-width: 1440px) {
+
+    .createMarket h2 {
+
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 980px) {
+
+    .createMarket h2 {
+
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .createMarket h2 {
+
+        font-size: 1.2rem;
+    }
+
+    .createMarket__container {
+
+        padding: 0 1rem;
+    }
+}
+
+.outcome-input {
+    display: flex;
+}
+
+.btremove{
+    margin-left: 20px;
+}
+
+.btnright{
+    float: right;
+}
+
+.btnright:hover {
+    transform: translateY(-2px);
+}
+.btnsub:hover {
+    transform: translateY(-2px);
+}
