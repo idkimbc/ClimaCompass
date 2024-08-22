@@ -3,7 +3,7 @@ import './Video.css';
 function Video() {
   return (
     <div className='videoContainer'>
-        <video src="/" controls autoPlay loop muted className='video'></video>
+        <video src="/videoplayback.mp4" controls autoPlay loop muted className='video'></video>
     </div>
   )
 }
